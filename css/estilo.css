@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.top-bar{
+    background-color: pink;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.top-bar--brand-logo{
+    width: 150px;
+    height: 150px;
+}
+
+
+.top-bar--login{ background-color: rgb(221, 116, 207);
+display:flex;
+align-items: center;
+padding: 0 20px;
+}
+
+.top-bar--login-logo{
+    width: 10vh;
+    height: auto;
+}
+
+a{
+    color:black;
+}
+a:hover{
+    color: ghostwhite;
+}
+
+a:visited{
+    color: green;
+}
+
+
+
+main{background-color: rgb(139, 209, 194);
+width: 60;
+margin: auto;
+padding: 40px;
+color:black;
+justify-content: space-around;}
+
+footer{
+    background-color: darkmagenta;
+}
+
+section{
+    border: 1px solid black;
+    width: 30%;
+    padding: 20px;
+}
